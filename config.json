@@ -1,0 +1,42 @@
+{
+    "read_demo_data": true,
+    "csv_file_path": "E:/Water plant project/water_plant_sensor_data.csv",
+    "mqtt_broker": "mqtt.yourbroker.com",
+    "mqtt_port": 1883,
+    "mqtt_topic": "sensor/data",
+    "update_interval": 2,
+    "dashboard_gauges": [
+        {
+            "type": "Gauge",
+            "title": "Water tem",
+            "value_key": "Water Temperature",
+            "min_val": 0.0,
+            "max_val": 200.0,
+            "color": "red"
+        },
+        {
+            "type": "Gauge",
+            "title": "Air Temperature",
+            "value_key": "Air Temperature",
+            "min_val": 0.0,
+            "max_val": 200.0,
+            "color": "green"
+        },
+        {
+            "type": "Gauge",
+            "title": "Humidity",
+            "value_key": "Humidity",
+            "min_val": 0.0,
+            "max_val": 100.0,
+            "color": "red"
+        },
+        {
+            "type": "Gauge",
+            "title": "Water Flow",
+            "value_key": "Water Flow",
+            "min_val": 0.0,
+            "max_val": 200.0,
+            "color": "darkblue"
+        }
+    ]
+}
