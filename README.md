@@ -37,7 +37,7 @@ cd predictive-maintenance-dashboard
 pip install dash paho-mqtt pandas plotly
 ```
 ## Configuartion
-The project requires a config.json and water_plant_sensor_data.csv file to run. This file should be in the root of the project.
+The project requires a config.json and Solar Monitoring System.xlsx file to run. This file should be in the root of the project.
 
 ### Running the Project
 Once you’ve installed the dependencies and set up the configuration, you can run the project using:
